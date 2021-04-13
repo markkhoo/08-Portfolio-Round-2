@@ -7,7 +7,6 @@
     <link rel="stylesheet" type="text/css" href="./assets/css/reset.css" />
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,500;1,700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
@@ -16,16 +15,16 @@
 
 <body>
     
-<h1>Mark Khoo</h1>
-
-<h2>It's been <span id="time-since"></span> days since I have started coding.</h2>
-
-<div>
-    <h2 id="click_about">About Me</h2>
-    <h2 id="click_work_">Work</h2>
-    <h2 id="click_repos">GitHub Repos</h2>
-    <h2 id="click_conta">Contact</h2>
-</div>
+<header>
+    <h1>Mark Khoo</h1>
+    <h2>It's been <span id="time-since"></span> days since I have started coding.</h2>
+    <nav>
+        <h2 id="click_about">About Me</h2>
+        <h2 id="click_work_">Work</h2>
+        <h2 id="click_repos">GitHub Repos</h2>
+        <h2 id="click_conta">Contact</h2>
+    </nav>
+</header>
 
 <div>
 
@@ -38,8 +37,12 @@
     </div>
 
     <div class="container" id="work_">
-        <p>code quiz</p>
-        <p>Trail Scout</p>
+        <div class="card">
+            <h3>Quiz Game</h3>
+        </div>
+        <div class="card">
+            <h3>Trail Scout</h3>
+        </div>
     </div>
 
     <div class="container" id="repos">
@@ -47,13 +50,13 @@
     </div>
 
     <div class="container" id="conta">
-        <a>
+        <a href="mailto:markkhoo95@gmail.com">
             <img src="./assets/images/iconfinder_Email_4550857.png">
         </a>
-        <a>
+        <a href="https://www.linkedin.com/in/markdkhoo/" target="_blank" rel="noreferrer noopener">
             <img src="./assets/images/iconfinder_linkedin_291709.png">
         </a>
-        <a>
+        <a href="https://github.com/markkhoo" target="_blank" rel="noreferrer noopener">
             <img src="./assets/images/iconfinder_github_291716.png">
         </a>
     </div>

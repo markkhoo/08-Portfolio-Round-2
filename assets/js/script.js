@@ -48,41 +48,41 @@ function displayRepos() {
 
 // INITIALIZE
 function init () {
-    aboutContainer.style.setProperty("display","initial");
-    work_Container.style.setProperty("display","none");
-    reposContainer.style.setProperty("display","none");
-    contaContainer.style.setProperty("display","none");
+    aboutContainer.setAttribute("style", "visibility: initial; height: auto");
+    work_Container.setAttribute("style", "visibility: hidden; height: 0px");
+    reposContainer.setAttribute("style", "visibility: hidden; height: 0px");
+    contaContainer.setAttribute("style", "visibility: hidden; height: 0px");
 };
 init();
 
 // Click About Me
 document.getElementById("click_about").addEventListener("click",function(){
-    aboutContainer.style.setProperty("display","initial");
-    work_Container.style.setProperty("display","none");
-    reposContainer.style.setProperty("display","none");
-    contaContainer.style.setProperty("display","none");
+    aboutContainer.setAttribute("style", "visibility: initial; height: auto");
+    work_Container.setAttribute("style", "visibility: hidden; height: 0px");
+    reposContainer.setAttribute("style", "visibility: hidden; height: 0px");
+    contaContainer.setAttribute("style", "visibility: hidden; height: 0px");
 });
 
 // Click Work
 document.getElementById("click_work_").addEventListener("click",function(){
-    aboutContainer.style.setProperty("display","none");
-    work_Container.style.setProperty("display","initial");
-    reposContainer.style.setProperty("display","none");
-    contaContainer.style.setProperty("display","none");
+    aboutContainer.setAttribute("style", "visibility: hidden; height: 0px");
+    work_Container.setAttribute("style", "visibility: initial; height: auto");
+    reposContainer.setAttribute("style", "visibility: hidden; height: 0px");
+    contaContainer.setAttribute("style", "visibility: hidden; height: 0px");
 });
 
 // Click Github Repos
 document.getElementById("click_repos").addEventListener("click",function(){
-    aboutContainer.style.setProperty("display","none");
-    work_Container.style.setProperty("display","none");
-    reposContainer.style.setProperty("display","initial");
-    contaContainer.style.setProperty("display","none");
+    aboutContainer.setAttribute("style", "visibility: hidden; height: 0px");
+    work_Container.setAttribute("style", "visibility: hidden; height: 0px");
+    reposContainer.setAttribute("style", "visibility: initial; height: auto");
+    contaContainer.setAttribute("style", "visibility: hidden; height: 0px");
 });
 
 // Click Contact
 document.getElementById("click_conta").addEventListener("click",function(){
-    aboutContainer.style.setProperty("display","none");
-    work_Container.style.setProperty("display","none");
-    reposContainer.style.setProperty("display","none");
-    contaContainer.style.setProperty("display","initial");
+    aboutContainer.setAttribute("style", "visibility: hidden; height: 0px");
+    work_Container.setAttribute("style", "visibility: hidden; height: 0px");
+    reposContainer.setAttribute("style", "visibility: hidden; height: 0px");
+    contaContainer.setAttribute("style", "visibility: initial; height: auto");
 });
