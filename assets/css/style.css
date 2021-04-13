@@ -1,9 +1,61 @@
+:root {
+    --colorBackground: rgb(25, 30, 34);
+    --colorFontPrimary: #fff;
+}
 
-
-p, a, h1, h2, h3, h4, h5, h6 {
+a, p, h1, h2, h3, h4, h5, h6 {
+    color: var(--colorFontPrimary);
     font-family: 'IBM Plex Mono', monospace;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--colorBackground);
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    padding: 0.5rem;
+}
+
+
+
+#conta a img {
+    width: 128px;
+    height: 128px;
+
+    position: relative;
+    top: 113px;
+}
+
+#pic_resum {
+    display: block;
+}
+
+#pic_resum div {
+    border-radius: 100%;
+    width: 128px;
+    height: 128px;
+    background-color: black;
+    text-align: center;
+}
+
+#pic_resum div p {
+    position: relative;
+    top: 56px;
+    letter-spacing: 0.375em;
+    padding: 0;
 }
 
 #profilePic {
     border-radius: 100%;
+    width: 128px;
+    height: 128px;
+}
+
+#square {
+    display: inline-block;
+    width: 128px;
 }
