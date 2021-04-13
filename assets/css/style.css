@@ -41,8 +41,8 @@ p, h1, h2, h3, h4, h5, h6 {
 .card {
     display: flex;
     flex: 1 1 auto;
-    width: 300px;
-    height: 6rem;
+    width: 400px;
+    height: 10rem;
 
     margin: 1rem;
     padding: 1rem;
@@ -52,6 +52,16 @@ p, h1, h2, h3, h4, h5, h6 {
 
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.card:hover {
+    border: 0.5rem solid var(--colorFontSecondary);
+    transition: border 120ms linear;
+}
+
+.card:hover > h3 {
+    color: var(--colorFontSecondary);
+    transition: color 120ms linear;
 }
 
 .card h3 {
@@ -71,6 +81,10 @@ p, h1, h2, h3, h4, h5, h6 {
     display: flex;
     justify-content: center;
 
+}
+
+#card-quiz {
+    background-image: url(../images/QuizGame.gif);
 }
 
 #card-trail {
