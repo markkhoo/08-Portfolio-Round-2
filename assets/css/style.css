@@ -38,6 +38,26 @@ p, h1, h2, h3, h4, h5, h6 {
     padding: 0.5rem;
 }
 
+.card {
+    display: flex;
+    flex: 1 1 auto;
+    width: 300px;
+    height: 6rem;
+
+    margin: 1rem;
+    padding: 1rem;
+
+    border: 0.5rem solid rgb(24, 24, 24);
+    border-radius: 1rem;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card h3 {
+    text-shadow: 0 0 2px #000000, 0 0 4px #000000, 0 0 8px #000000;
+}
+
 .container {
     max-width: 1024px;
 }
@@ -51,6 +71,10 @@ p, h1, h2, h3, h4, h5, h6 {
     display: flex;
     justify-content: center;
 
+}
+
+#card-trail {
+    background-image: url(../images/trail-scout.gif);
 }
 
 #conta a img {
