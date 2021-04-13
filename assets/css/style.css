@@ -16,11 +16,22 @@ body {
     background-color: var(--colorBackground);
 }
 
+header {
+    text-align: center;
+}
+
+nav h2 {
+    display: inline-block;
+}
+
 p, h1, h2, h3, h4, h5, h6 {
     padding: 0.5rem;
 }
 
+#about p {
+    padding: 1.5rem 3rem;
 
+}
 
 #conta a img {
     width: 128px;
@@ -53,6 +64,8 @@ p, h1, h2, h3, h4, h5, h6 {
     border-radius: 100%;
     width: 128px;
     height: 128px;
+    float: left;
+    margin: 1.5rem;
 }
 
 #square {
