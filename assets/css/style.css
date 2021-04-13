@@ -22,6 +22,7 @@ header {
 
 nav h2 {
     display: inline-block;
+    padding: 1rem 2rem;
 }
 
 p, h1, h2, h3, h4, h5, h6 {
@@ -31,6 +32,11 @@ p, h1, h2, h3, h4, h5, h6 {
 #about p {
     padding: 1.5rem 3rem;
 
+}
+
+#a_display {
+    display: flex;
+    justify-content: center;
 }
 
 #conta a img {
@@ -71,4 +77,5 @@ p, h1, h2, h3, h4, h5, h6 {
 #square {
     display: inline-block;
     width: 128px;
+    padding: 112px 0;
 }
