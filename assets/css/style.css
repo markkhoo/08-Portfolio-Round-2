@@ -17,6 +17,7 @@ a:link, a:visited {
 
 body {
     background-color: var(--colorBackground);
+    user-select: none;
 }
 
 header {
